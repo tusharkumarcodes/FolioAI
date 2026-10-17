@@ -1,6 +1,6 @@
 app-id: io.github.tusharkumarcodes.FolioAI
 runtime: org.gnome.Platform
-runtime-version: '47'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: folio-ai
 
@@ -13,8 +13,6 @@ finish-args:
   - --share=ipc
   # Access local or remote Ollama instances
   - --share=network
-  # Persist chat and note sessions
-  - --filesystem=xdg-data/gtk_note_app:create
 
 build-options:
   env:

@@ -40,6 +40,13 @@
     <category>TextEditor</category>
   </categories>
 
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/tusharkumarcodes/FolioAI/main/data/screenshot.png</image>
+      <caption>Folio AI Note-taking and AI Chat Interface</caption>
+    </screenshot>
+  </screenshots>
+
   <content_rating type="oars-1.1" />
 
   <releases>
