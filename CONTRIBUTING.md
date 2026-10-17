@@ -51,5 +51,6 @@ Thank you for your interest in contributing to **Folio AI**! We welcome communit
 
 ## 🐛 Reporting Issues & Feature Requests
 
-- Please search existing GitHub issues before filing a new one.
-- When filing a bug report, please include your Linux distribution, GNOME/GTK version, Ollama version, and model name.
+- You can open an issue on GitHub. Please search existing issues before filing a new one.
+- In case you find a bug or issue, you can also reach out directly via email at [tusharkumar.mohali@gmail.com](mailto:tusharkumar.mohali@gmail.com).
+- When reporting a bug, please include your Linux distribution, GNOME/GTK version, Ollama version, and model name.

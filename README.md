@@ -143,9 +143,11 @@ flatpak run io.github.tusharkumarcodes.FolioAI
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributing & Bug Reports
 
-Contributions are welcome! Please check out [CONTRIBUTING.md](file:///home/tushar/Development/project003/CONTRIBUTING.md) for setup instructions and development guidelines.
+Contributions and feedback are welcome!
+- For contribution and setup guidelines, check out [CONTRIBUTING.md](file:///home/tushar/Development/project003/CONTRIBUTING.md).
+- If you encounter a bug or have any questions, feel free to open a GitHub issue or contact directly via email at [tusharkumar.mohali@gmail.com](mailto:tusharkumar.mohali@gmail.com).
 
 ---
 
