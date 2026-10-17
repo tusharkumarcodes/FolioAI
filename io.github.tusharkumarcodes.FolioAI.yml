@@ -8,6 +8,7 @@ finish-args:
   # Display and Wayland / X11 rendering
   - --socket=wayland
   - --socket=fallback-x11
+  - --device=dri
   # Audio/Notifications if needed
   - --share=ipc
   # Access local or remote Ollama instances
