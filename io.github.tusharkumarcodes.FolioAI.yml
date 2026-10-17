@@ -27,8 +27,8 @@ modules:
       - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} markdown
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/d6/f6/433f443886eb02d3814324b3003b719121953457209e99f772145b3791a4/Markdown-3.7-py3-none-any.whl
-        sha256: 7d6c6b24d787034ff9d71c49cc394747eb1a2386c1dddf6f97efd9396e62678f
+        url: https://files.pythonhosted.org/packages/75/e6/1c7b7a48aa3f2c2a5d3c71a6c9c90a6c8c2903e5c73663b5f5e38f87257f/markdown-3.11.1-py3-none-any.whl
+        sha256: f1fa378ba5d682900c9ecb55ccceacca936016dda7c3b27097e8ae03ff78feb5
 
   # Application Module
   - name: folio-ai

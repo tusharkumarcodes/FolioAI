@@ -1,9 +1,9 @@
-desktop_file = i18n_merge_file = install_data(
+install_data(
   'io.github.tusharkumarcodes.FolioAI.desktop',
   install_dir: datadir / 'applications'
 )
 
-metainfo_file = install_data(
+install_data(
   'io.github.tusharkumarcodes.FolioAI.metainfo.xml',
   install_dir: datadir / 'metainfo'
 )
