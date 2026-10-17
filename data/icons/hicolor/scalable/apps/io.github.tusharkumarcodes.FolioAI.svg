@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3584e4" />
+      <stop offset="50%" stop-color="#1c71d8" />
+      <stop offset="100%" stop-color="#1a5fb4" />
+    </linearGradient>
+
+    <!-- Chat Bubble Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#99c1f1" />
+      <stop offset="100%" stop-color="#62a0ea" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Card (GNOME Icon Grid style: 128x128 with 28px border-radius) -->
+  <rect x="14" y="14" width="100" height="100" rx="24" fill="url(#bgGrad)" filter="url(#dropShadow)" />
+
+  <!-- Note Page Outline (Folio aspect) -->
+  <rect x="28" y="26" width="72" height="76" rx="10" fill="#ffffff" fill-opacity="0.95" />
+
+  <!-- Note Lines (Text notes representation) -->
+  <rect x="38" y="40" width="34" height="4" rx="2" fill="#9a9996" />
+  <rect x="38" y="50" width="52" height="4" rx="2" fill="#c0bfbc" />
+  <rect x="38" y="60" width="46" height="4" rx="2" fill="#c0bfbc" />
+
+  <!-- AI Chat Bubble Overlay (Representing Local Ollama AI Chat) -->
+  <g filter="url(#dropShadow)">
+    <path d="M 54 66 C 54 59.37 59.37 54 66 54 L 90 54 C 96.63 54 102 59.37 102 66 L 102 82 C 102 88.63 96.63 94 90 94 L 72 94 L 60 102 L 62 94 C 57.58 94 54 90.42 54 86 Z" fill="url(#accentGrad)" />
+  </g>
+
+  <!-- Sparkle / AI Intelligence Star inside bubble -->
+  <path d="M 78 66 Q 78 74 70 74 Q 78 74 78 82 Q 78 74 86 74 Q 78 74 78 66 Z" fill="#ffffff" />
+  <circle cx="88" cy="65" r="2" fill="#ffffff" />
+</svg>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.tusharkumarcodes.FolioAI</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Folio AI</name>
+  <summary>Native GTK 4 &amp; Libadwaita local AI chat and notes powered by Ollama</summary>
+
+  <description>
+    <p>
+      Folio AI is a native, modern, and persistent desktop application designed for GNOME.
+      It combines a standard Markdown notes workspace with local LLM AI chat bubbles powered
+      by Ollama.
+    </p>
+    <p>Features include:</p>
+    <ul>
+      <li>Modern Libadwaita aesthetic adhering to GNOME Human Interface Guidelines (HIG)</li>
+      <li>Non-blocking real-time streaming conversations using local Ollama models</li>
+      <li>Rich Markdown and GTK Pango formatting with code blocks, lists, and tables</li>
+      <li>Monospace text notes editor with auto-save</li>
+      <li>Strict horizontal layout constraints preventing bubble overflow</li>
+      <li>Dark and light style support following GNOME system color-scheme preferences</li>
+      <li>Persistent local JSON storage with recency-based chat sorting</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">io.github.tusharkumarcodes.FolioAI.desktop</launchable>
+
+  <url type="homepage">https://github.com/tusharkumarcodes/folio-ai</url>
+  <url type="bugtracker">https://github.com/tusharkumarcodes/folio-ai/issues</url>
+  <url type="vcs-browser">https://github.com/tusharkumarcodes/folio-ai</url>
+
+  <developer id="io.github.tusharkumarcodes">
+    <name>Tushar Kumar</name>
+  </developer>
+
+  <categories>
+    <category>Utility</category>
+    <category>Office</category>
+    <category>TextEditor</category>
+  </categories>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="0.1.0" date="2026-10-17">
+      <description>
+        <p>Initial release of Folio AI featuring:</p>
+        <ul>
+          <li>Libadwaita UI with dual-mode workspace (Notes &amp; AI Chat)</li>
+          <li>Local Ollama integration with real-time streaming</li>
+          <li>Markdown to Pango rendering</li>
+          <li>Settings pane with connection testing</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

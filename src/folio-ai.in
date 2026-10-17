@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+import os
+import sys
+
+pkgdatadir = '@DATA_DIR@'
+
+if __name__ == '__main__':
+    from folio_ai.main import main
+    sys.exit(main())

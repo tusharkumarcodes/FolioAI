@@ -92,18 +92,28 @@ python3 main.py
 
 ### Optional: Desktop Launcher Integration
 
-To add Folio AI to your GNOME application launcher:
+To install the desktop launcher and icon locally:
 
 ```bash
-# Copy desktop file to your user applications folder
-mkdir -p ~/.local/share/applications
-cp org.example.FolioAI.desktop ~/.local/share/applications/
+# Copy desktop file to your applications directory
+mkdir -p ~/.local/share/applications ~/.local/share/icons/hicolor/scalable/apps
+cp data/io.github.tusharkumarcodes.FolioAI.desktop ~/.local/share/applications/
+cp data/icons/hicolor/scalable/apps/io.github.tusharkumarcodes.FolioAI.svg ~/.local/share/icons/hicolor/scalable/apps/
 
-# Adjust path in the installed desktop entry to your clone directory:
-sed -i "s|/home/tushar/Development/project003|$(pwd)|g" ~/.local/share/applications/org.example.FolioAI.desktop
+# Point the desktop entry to your local python main.py
+sed -i "s|Exec=folio-ai|Exec=python3 $(pwd)/main.py|g" ~/.local/share/applications/io.github.tusharkumarcodes.FolioAI.desktop
 
 # Update desktop database
 update-desktop-database ~/.local/share/applications/
+```
+
+### Flatpak Build (Local Testing)
+
+If you have `flatpak-builder` installed:
+
+```bash
+flatpak-builder --user --install --force-clean build-dir io.github.tusharkumarcodes.FolioAI.yml
+flatpak run io.github.tusharkumarcodes.FolioAI
 ```
 
 ---

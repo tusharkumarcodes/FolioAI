@@ -1120,7 +1120,7 @@ class FolioWindow(Adw.ApplicationWindow):
 class FolioApp(Adw.Application):
     def __init__(self):
         super().__init__(
-            application_id="org.example.FolioAI",
+            application_id="io.github.tusharkumarcodes.FolioAI",
             flags=Gio.ApplicationFlags.DEFAULT_FLAGS,
         )
 
