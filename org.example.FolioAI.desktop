@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Folio AI
+GenericName=AI Chat & Notes
+Comment=Persistent GTK 4 & Libadwaita AI Chat and Notes powered by local Ollama
+Exec=python3 /home/tushar/Development/project003/main.py
+Icon=chat-message-new-symbolic
+Terminal=false
+Type=Application
+Categories=Utility;Office;TextEditor;
+StartupNotify=true
+StartupWMClass=org.example.FolioAI
+Keywords=AI;Chat;Notes;Ollama;LLM;Markdown;
